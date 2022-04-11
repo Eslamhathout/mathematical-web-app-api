@@ -16,6 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from ackermann.views import AckermannView
+from factorial.views import FactorialView
+from fibonacci.views import FibonacciView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('fibonacci/', FibonacciView.as_view()),
+    path('factorial/', FactorialView.as_view()),
+    path('ackermann/', AckermannView.as_view()),
+
 ]

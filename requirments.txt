@@ -1,2 +1,5 @@
 Django>=3.2.12,<3.3.0
 djangorestframework>=3.13.1
+
+flake8>=3.6.0,<3.7.0
+isort>=5.10.1,<5.11.0
