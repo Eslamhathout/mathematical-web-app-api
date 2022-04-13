@@ -48,6 +48,6 @@ docker-compose run app sh -c "python manage.py test && flake8 --max-line-length 
 The project contains a yml file that hold the configuration for travise CI which will be used to test the code and checks the code against the linting tools such as flake8 and isort in order to maintain a healthy/clean code on production.
 
 ## Contributing
-This is a task for Klarna
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
